@@ -1,0 +1,32 @@
+{
+  "name": "kafka-app",
+  "version": "1.0.0",
+  "description": "Kafka API in Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhelio77/kafka-api.git"
+  },
+  "keywords": [
+    "kafka",
+    "api",
+    "streams"
+  ],
+  "author": "rancheta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhelio77/kafka-api/issues"
+  },
+  "homepage": "https://github.com/dhelio77/kafka-api#readme",
+  "devDependencies": {
+    "child_process": "^1.0.2",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
