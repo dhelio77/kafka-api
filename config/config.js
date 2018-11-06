@@ -2,7 +2,8 @@
 
 const config_settings = {
   'dev': {
-    'jenkins_url': 'http://178.128.116.130:8080/'
+    'jenkins_url': 'http://178.128.116.130:8080/',
+    'jenkins_ssh': 'ssh root@178.128.116.130'
   }
 }
 
